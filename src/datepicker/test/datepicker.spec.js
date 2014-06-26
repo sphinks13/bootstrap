@@ -1171,7 +1171,7 @@ describe('datepicker directive', function () {
       });
 
       it('updates the model & calendar when input value changes', function() {
-        changeInputValueTo(inputEl, 'March 5, 1980');
+        changeInputValueTo(inputEl, '1980-03-05');
 
         expect($rootScope.date.getFullYear()).toEqual(1980);
         expect($rootScope.date.getMonth()).toEqual(2);
